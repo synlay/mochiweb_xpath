@@ -42,6 +42,7 @@ test_definitions() ->
                % testing the abbreviated syntax to access indexed
                {"count(/html/body/form[position()]/*)", 8},
                {"/html/body/*/input[3 + 0]/@value",[<<"Val3">>]},
+               {"/html/body/*/input[@type='hidden'][last()]/@value",[<<"Val6">>]},
 
                {"string(//div[@class='normal']/cite)",[<<"one-two-three-(nested-[deeply-four-done]-done)-five">>, <<"other stuff">>]},
                {"name(/html/body/*/input[@type='hidden'][@name=\"id1\"]/..)",<<"form">>},
