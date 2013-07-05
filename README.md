@@ -56,6 +56,12 @@ Xpath coverage
 * sum
 * string-length
 * not
+ 
+
+### Implemented abbreviated syntax
+
+* indexed access
+
 
 ### TODO axes
 
