@@ -60,7 +60,7 @@ Xpath coverage
 
 ### Implemented abbreviated syntax
 
-* indexed access
+* indexed access (e.g. `div[last() - 1]`)
 
 
 ### TODO axes
